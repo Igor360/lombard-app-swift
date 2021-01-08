@@ -15,6 +15,23 @@
 		5823B5F425A83D1E00994032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823B5F225A83D1E00994032 /* LaunchScreen.storyboard */; };
 		5823B5FF25A83D1E00994032 /* LombardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B5FE25A83D1E00994032 /* LombardAppTests.swift */; };
 		5823B60A25A83D1E00994032 /* LombardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B60925A83D1E00994032 /* LombardAppUITests.swift */; };
+		5823B61C25A83D8B00994032 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B61B25A83D8B00994032 /* Client.swift */; };
+		5823B62125A83EB200994032 /* GoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B62025A83EB200994032 /* GoodCategory.swift */; };
+		5823B62625A83F0600994032 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B62525A83F0600994032 /* Tasks.swift */; };
+		5823B62B25A8425F00994032 /* AddTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823B62A25A8425F00994032 /* AddTask.storyboard */; };
+		5823B63025A8450700994032 /* AddClient.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823B62F25A8450700994032 /* AddClient.storyboard */; };
+		5823B63525A8453800994032 /* AddGoodsCategorty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823B63425A8453800994032 /* AddGoodsCategorty.storyboard */; };
+		5823B63A25A8508900994032 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B63925A8508900994032 /* AddCategoryViewController.swift */; };
+		5823B63F25A853DC00994032 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B63E25A853DC00994032 /* Alert.swift */; };
+		5823B64425A857B800994032 /* AddClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B64325A857B800994032 /* AddClientViewController.swift */; };
+		5823B64925A85FBE00994032 /* Clients.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823B64825A85FBE00994032 /* Clients.storyboard */; };
+		5823B65125A85FF300994032 /* ClientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B65025A85FF300994032 /* ClientsViewController.swift */; };
+		5823B65925A8601300994032 /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823B65825A8601300994032 /* Categories.storyboard */; };
+		5823B65E25A8602D00994032 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B65D25A8602D00994032 /* CategoriesViewController.swift */; };
+		5823B66325A8604200994032 /* Tasks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823B66225A8604200994032 /* Tasks.storyboard */; };
+		5823B66825A8605800994032 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B66725A8605800994032 /* TasksViewController.swift */; };
+		5823B66D25A8622D00994032 /* ClientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B66C25A8622D00994032 /* ClientTableViewCell.swift */; };
+		5823B67825A887DF00994032 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B67725A887DF00994032 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +66,23 @@
 		5823B60525A83D1E00994032 /* LombardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LombardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5823B60925A83D1E00994032 /* LombardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LombardAppUITests.swift; sourceTree = "<group>"; };
 		5823B60B25A83D1E00994032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5823B61B25A83D8B00994032 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		5823B62025A83EB200994032 /* GoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodCategory.swift; sourceTree = "<group>"; };
+		5823B62525A83F0600994032 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		5823B62A25A8425F00994032 /* AddTask.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTask.storyboard; sourceTree = "<group>"; };
+		5823B62F25A8450700994032 /* AddClient.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddClient.storyboard; sourceTree = "<group>"; };
+		5823B63425A8453800994032 /* AddGoodsCategorty.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddGoodsCategorty.storyboard; sourceTree = "<group>"; };
+		5823B63925A8508900994032 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		5823B63E25A853DC00994032 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5823B64325A857B800994032 /* AddClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClientViewController.swift; sourceTree = "<group>"; };
+		5823B64825A85FBE00994032 /* Clients.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Clients.storyboard; sourceTree = "<group>"; };
+		5823B65025A85FF300994032 /* ClientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewController.swift; sourceTree = "<group>"; };
+		5823B65825A8601300994032 /* Categories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Categories.storyboard; sourceTree = "<group>"; };
+		5823B65D25A8602D00994032 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		5823B66225A8604200994032 /* Tasks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tasks.storyboard; sourceTree = "<group>"; };
+		5823B66725A8605800994032 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		5823B66C25A8622D00994032 /* ClientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTableViewCell.swift; sourceTree = "<group>"; };
+		5823B67725A887DF00994032 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +133,28 @@
 		5823B5E625A83D1C00994032 /* LombardApp */ = {
 			isa = PBXGroup;
 			children = (
+				5823B61A25A83D2C00994032 /* Models */,
 				5823B5E725A83D1C00994032 /* AppDelegate.swift */,
 				5823B5E925A83D1C00994032 /* SceneDelegate.swift */,
 				5823B5EB25A83D1C00994032 /* ViewController.swift */,
+				5823B64825A85FBE00994032 /* Clients.storyboard */,
+				5823B62A25A8425F00994032 /* AddTask.storyboard */,
+				5823B62F25A8450700994032 /* AddClient.storyboard */,
 				5823B5ED25A83D1D00994032 /* Main.storyboard */,
 				5823B5F025A83D1E00994032 /* Assets.xcassets */,
 				5823B5F225A83D1E00994032 /* LaunchScreen.storyboard */,
 				5823B5F525A83D1E00994032 /* Info.plist */,
+				5823B63425A8453800994032 /* AddGoodsCategorty.storyboard */,
+				5823B63925A8508900994032 /* AddCategoryViewController.swift */,
+				5823B63E25A853DC00994032 /* Alert.swift */,
+				5823B64325A857B800994032 /* AddClientViewController.swift */,
+				5823B65025A85FF300994032 /* ClientsViewController.swift */,
+				5823B65825A8601300994032 /* Categories.storyboard */,
+				5823B65D25A8602D00994032 /* CategoriesViewController.swift */,
+				5823B66225A8604200994032 /* Tasks.storyboard */,
+				5823B66725A8605800994032 /* TasksViewController.swift */,
+				5823B66C25A8622D00994032 /* ClientTableViewCell.swift */,
+				5823B67725A887DF00994032 /* AddTaskViewController.swift */,
 			);
 			path = LombardApp;
 			sourceTree = "<group>";
@@ -126,6 +175,16 @@
 				5823B60B25A83D1E00994032 /* Info.plist */,
 			);
 			path = LombardAppUITests;
+			sourceTree = "<group>";
+		};
+		5823B61A25A83D2C00994032 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5823B61B25A83D8B00994032 /* Client.swift */,
+				5823B62025A83EB200994032 /* GoodCategory.swift */,
+				5823B62525A83F0600994032 /* Tasks.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +290,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5823B63525A8453800994032 /* AddGoodsCategorty.storyboard in Resources */,
 				5823B5F425A83D1E00994032 /* LaunchScreen.storyboard in Resources */,
+				5823B65925A8601300994032 /* Categories.storyboard in Resources */,
+				5823B66325A8604200994032 /* Tasks.storyboard in Resources */,
+				5823B62B25A8425F00994032 /* AddTask.storyboard in Resources */,
+				5823B64925A85FBE00994032 /* Clients.storyboard in Resources */,
+				5823B63025A8450700994032 /* AddClient.storyboard in Resources */,
 				5823B5F125A83D1E00994032 /* Assets.xcassets in Resources */,
 				5823B5EF25A83D1D00994032 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +324,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5823B5EC25A83D1C00994032 /* ViewController.swift in Sources */,
+				5823B65E25A8602D00994032 /* CategoriesViewController.swift in Sources */,
+				5823B62125A83EB200994032 /* GoodCategory.swift in Sources */,
 				5823B5E825A83D1C00994032 /* AppDelegate.swift in Sources */,
+				5823B65125A85FF300994032 /* ClientsViewController.swift in Sources */,
+				5823B66825A8605800994032 /* TasksViewController.swift in Sources */,
+				5823B66D25A8622D00994032 /* ClientTableViewCell.swift in Sources */,
+				5823B61C25A83D8B00994032 /* Client.swift in Sources */,
+				5823B62625A83F0600994032 /* Tasks.swift in Sources */,
+				5823B63A25A8508900994032 /* AddCategoryViewController.swift in Sources */,
+				5823B63F25A853DC00994032 /* Alert.swift in Sources */,
 				5823B5EA25A83D1C00994032 /* SceneDelegate.swift in Sources */,
+				5823B64425A857B800994032 /* AddClientViewController.swift in Sources */,
+				5823B67825A887DF00994032 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
