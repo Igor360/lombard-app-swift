@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5823B5E825A83D1C00994032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B5E725A83D1C00994032 /* AppDelegate.swift */; };
+		5823B5EA25A83D1C00994032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B5E925A83D1C00994032 /* SceneDelegate.swift */; };
+		5823B5EC25A83D1C00994032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B5EB25A83D1C00994032 /* ViewController.swift */; };
+		5823B5EF25A83D1D00994032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823B5ED25A83D1D00994032 /* Main.storyboard */; };
+		5823B5F125A83D1E00994032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5823B5F025A83D1E00994032 /* Assets.xcassets */; };
+		5823B5F425A83D1E00994032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5823B5F225A83D1E00994032 /* LaunchScreen.storyboard */; };
+		5823B5FF25A83D1E00994032 /* LombardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B5FE25A83D1E00994032 /* LombardAppTests.swift */; };
+		5823B60A25A83D1E00994032 /* LombardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823B60925A83D1E00994032 /* LombardAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5823B5FB25A83D1E00994032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5823B5DC25A83D1C00994032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5823B5E325A83D1C00994032;
+			remoteInfo = LombardApp;
+		};
+		5823B60625A83D1E00994032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5823B5DC25A83D1C00994032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5823B5E325A83D1C00994032;
+			remoteInfo = LombardApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5823B5E425A83D1C00994032 /* LombardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LombardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5823B5E725A83D1C00994032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5823B5E925A83D1C00994032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5823B5EB25A83D1C00994032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5823B5EE25A83D1D00994032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5823B5F025A83D1E00994032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5823B5F325A83D1E00994032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5823B5F525A83D1E00994032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5823B5FA25A83D1E00994032 /* LombardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LombardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5823B5FE25A83D1E00994032 /* LombardAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LombardAppTests.swift; sourceTree = "<group>"; };
+		5823B60025A83D1E00994032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5823B60525A83D1E00994032 /* LombardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LombardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5823B60925A83D1E00994032 /* LombardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LombardAppUITests.swift; sourceTree = "<group>"; };
+		5823B60B25A83D1E00994032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5823B5E125A83D1C00994032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5823B5F725A83D1E00994032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5823B60225A83D1E00994032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5823B5DB25A83D1C00994032 = {
+			isa = PBXGroup;
+			children = (
+				5823B5E625A83D1C00994032 /* LombardApp */,
+				5823B5FD25A83D1E00994032 /* LombardAppTests */,
+				5823B60825A83D1E00994032 /* LombardAppUITests */,
+				5823B5E525A83D1C00994032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5823B5E525A83D1C00994032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5823B5E425A83D1C00994032 /* LombardApp.app */,
+				5823B5FA25A83D1E00994032 /* LombardAppTests.xctest */,
+				5823B60525A83D1E00994032 /* LombardAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5823B5E625A83D1C00994032 /* LombardApp */ = {
+			isa = PBXGroup;
+			children = (
+				5823B5E725A83D1C00994032 /* AppDelegate.swift */,
+				5823B5E925A83D1C00994032 /* SceneDelegate.swift */,
+				5823B5EB25A83D1C00994032 /* ViewController.swift */,
+				5823B5ED25A83D1D00994032 /* Main.storyboard */,
+				5823B5F025A83D1E00994032 /* Assets.xcassets */,
+				5823B5F225A83D1E00994032 /* LaunchScreen.storyboard */,
+				5823B5F525A83D1E00994032 /* Info.plist */,
+			);
+			path = LombardApp;
+			sourceTree = "<group>";
+		};
+		5823B5FD25A83D1E00994032 /* LombardAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5823B5FE25A83D1E00994032 /* LombardAppTests.swift */,
+				5823B60025A83D1E00994032 /* Info.plist */,
+			);
+			path = LombardAppTests;
+			sourceTree = "<group>";
+		};
+		5823B60825A83D1E00994032 /* LombardAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5823B60925A83D1E00994032 /* LombardAppUITests.swift */,
+				5823B60B25A83D1E00994032 /* Info.plist */,
+			);
+			path = LombardAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5823B5E325A83D1C00994032 /* LombardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5823B60E25A83D1E00994032 /* Build configuration list for PBXNativeTarget "LombardApp" */;
+			buildPhases = (
+				5823B5E025A83D1C00994032 /* Sources */,
+				5823B5E125A83D1C00994032 /* Frameworks */,
+				5823B5E225A83D1C00994032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LombardApp;
+			productName = LombardApp;
+			productReference = 5823B5E425A83D1C00994032 /* LombardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5823B5F925A83D1E00994032 /* LombardAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5823B61125A83D1E00994032 /* Build configuration list for PBXNativeTarget "LombardAppTests" */;
+			buildPhases = (
+				5823B5F625A83D1E00994032 /* Sources */,
+				5823B5F725A83D1E00994032 /* Frameworks */,
+				5823B5F825A83D1E00994032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5823B5FC25A83D1E00994032 /* PBXTargetDependency */,
+			);
+			name = LombardAppTests;
+			productName = LombardAppTests;
+			productReference = 5823B5FA25A83D1E00994032 /* LombardAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5823B60425A83D1E00994032 /* LombardAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5823B61425A83D1E00994032 /* Build configuration list for PBXNativeTarget "LombardAppUITests" */;
+			buildPhases = (
+				5823B60125A83D1E00994032 /* Sources */,
+				5823B60225A83D1E00994032 /* Frameworks */,
+				5823B60325A83D1E00994032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5823B60725A83D1E00994032 /* PBXTargetDependency */,
+			);
+			name = LombardAppUITests;
+			productName = LombardAppUITests;
+			productReference = 5823B60525A83D1E00994032 /* LombardAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5823B5DC25A83D1C00994032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5823B5E325A83D1C00994032 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					5823B5F925A83D1E00994032 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5823B5E325A83D1C00994032;
+					};
+					5823B60425A83D1E00994032 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5823B5E325A83D1C00994032;
+					};
+				};
+			};
+			buildConfigurationList = 5823B5DF25A83D1C00994032 /* Build configuration list for PBXProject "LombardApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5823B5DB25A83D1C00994032;
+			productRefGroup = 5823B5E525A83D1C00994032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5823B5E325A83D1C00994032 /* LombardApp */,
+				5823B5F925A83D1E00994032 /* LombardAppTests */,
+				5823B60425A83D1E00994032 /* LombardAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5823B5E225A83D1C00994032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5823B5F425A83D1E00994032 /* LaunchScreen.storyboard in Resources */,
+				5823B5F125A83D1E00994032 /* Assets.xcassets in Resources */,
+				5823B5EF25A83D1D00994032 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5823B5F825A83D1E00994032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5823B60325A83D1E00994032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5823B5E025A83D1C00994032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5823B5EC25A83D1C00994032 /* ViewController.swift in Sources */,
+				5823B5E825A83D1C00994032 /* AppDelegate.swift in Sources */,
+				5823B5EA25A83D1C00994032 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5823B5F625A83D1E00994032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5823B5FF25A83D1E00994032 /* LombardAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5823B60125A83D1E00994032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5823B60A25A83D1E00994032 /* LombardAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5823B5FC25A83D1E00994032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5823B5E325A83D1C00994032 /* LombardApp */;
+			targetProxy = 5823B5FB25A83D1E00994032 /* PBXContainerItemProxy */;
+		};
+		5823B60725A83D1E00994032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5823B5E325A83D1C00994032 /* LombardApp */;
+			targetProxy = 5823B60625A83D1E00994032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5823B5ED25A83D1D00994032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5823B5EE25A83D1D00994032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5823B5F225A83D1E00994032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5823B5F325A83D1E00994032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5823B60C25A83D1E00994032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5823B60D25A83D1E00994032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5823B60F25A83D1E00994032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5759C52NF;
+				INFOPLIST_FILE = LombardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LombardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5823B61025A83D1E00994032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5759C52NF;
+				INFOPLIST_FILE = LombardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LombardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5823B61225A83D1E00994032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5759C52NF;
+				INFOPLIST_FILE = LombardAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LombardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LombardApp.app/LombardApp";
+			};
+			name = Debug;
+		};
+		5823B61325A83D1E00994032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5759C52NF;
+				INFOPLIST_FILE = LombardAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LombardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LombardApp.app/LombardApp";
+			};
+			name = Release;
+		};
+		5823B61525A83D1E00994032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5759C52NF;
+				INFOPLIST_FILE = LombardAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LombardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LombardApp;
+			};
+			name = Debug;
+		};
+		5823B61625A83D1E00994032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5759C52NF;
+				INFOPLIST_FILE = LombardAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LombardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LombardApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5823B5DF25A83D1C00994032 /* Build configuration list for PBXProject "LombardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5823B60C25A83D1E00994032 /* Debug */,
+				5823B60D25A83D1E00994032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5823B60E25A83D1E00994032 /* Build configuration list for PBXNativeTarget "LombardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5823B60F25A83D1E00994032 /* Debug */,
+				5823B61025A83D1E00994032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5823B61125A83D1E00994032 /* Build configuration list for PBXNativeTarget "LombardAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5823B61225A83D1E00994032 /* Debug */,
+				5823B61325A83D1E00994032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5823B61425A83D1E00994032 /* Build configuration list for PBXNativeTarget "LombardAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5823B61525A83D1E00994032 /* Debug */,
+				5823B61625A83D1E00994032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5823B5DC25A83D1C00994032 /* Project object */;
+}
